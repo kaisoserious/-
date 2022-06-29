@@ -1,0 +1,74 @@
+/* pages/goods/goods.wxss */
+.ssk{
+  border: 1px solid black;
+  display: flex;
+  font-size: 30rpx;
+  border: 1px solid black;
+  border-radius: 40rpx;
+  height: 80rpx;
+  margin: 30rpx;
+}
+.ssk input{
+  height: 100%;
+  width: 60%;
+}
+.ssk image{
+  width: 50rpx;
+  height: 100%;
+  margin: auto 0 auto 20rpx;
+}
+.ssk view{
+  border: 1px solid black;
+  border-radius: 40rpx;
+  background-color: lightpink;
+  width: 150rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-left: 130rpx;
+}
+.left{
+  width: 160rpx;
+  display: inline-block;
+  height: 1170rpx;
+  background-color: rgb(240, 252, 255);
+}
+.right{
+  height: 780rpx;
+}
+.leftview{
+  width: 160rpx;
+  height: 100%;
+  font-size: 30rpx;
+  display: block;
+}
+.leftview view{
+  width: 100%;
+  border: 1px black solid;
+  height: 80rpx;
+  text-align: center;
+  line-height: 75rpx;
+}
+.rightview{
+  width: 585rpx;
+  float: right;
+  border: 1px solid black;
+  display: block;
+}
+image{
+  width: 100rpx;
+  margin: 30rpx;
+  justify-content: space-around;
+}
+.name view{
+  width: 175rpx;
+  float: left;
+  text-align: center;
+  margin-top: 8rpx;
+  margin-left: 12rpx;
+}
+swiper{
+  height: 350rpx;
+}
+swiper image{
+  width: 90%;
+}

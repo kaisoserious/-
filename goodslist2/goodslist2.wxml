@@ -1,0 +1,69 @@
+<!--pages/goodslist2/goodslist2.wxml-->
+<view class="main">
+  <view class="top">
+    <swiper indicator-dots indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/109713/29/29689/233926/62ab50c8E0316bccc/da85e2cd939df5e9.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/93120/15/29051/65174/62947f64Ecdd76fad/3724fbf460bf29b9.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/119892/14/22309/162487/621a2a26Edd590808/be56c36880369e0d.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/117490/8/8333/298493/5ece52e3E8be1163d/e9b6e0bce92ecd6c.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/128959/37/3353/51068/5ecfc3a2Eaa336f29/92f98dcbfdd9631b.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/159613/7/27633/79243/621a2ac9Ef819733b/fa85e07b0d0d7890.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/115248/26/8303/417357/5ece52c1E6e92037b/59972b7c0597084f.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/119635/20/7075/49383/5ecfc3a6Ef16e7bb5/ed9cdb28e0d70535.jpg" mode="widthFix"></image></swiper-item>
+    </swiper>
+  </view>
+
+  <view class="tit"> 
+    <view>优惠促销</view>
+    <view class="money">￥119.00</view>
+      <view class="tit2">
+        <view class="quan">满99减10</view>
+        <view class="quan">满300减60</view>
+        <view class="quan">满400减100</view>
+      </view>
+    <view>美的（Midea）电饼铛家用智能双面加热煎烤机烙饼机三明治早餐机蛋饼机薄饼机煎饼烙饼锅JHN30F</view>
+    <view class="tit2">
+      <view>🧡推荐</view>
+      <view>👨‍👦‍👦帮我选</view>
+      <view>📣分享</view>
+    </view>
+  </view>
+
+  <view class="foot1">
+    <view>选择 颜色/规格 ></view>
+    <view>发货 四川成都 | 快递 : 免运费 月销 : 1000+</view>
+    <view>保障 7天无理由 ></view>
+    <view>参数 品牌/规格 ></view>
+  </view>
+
+   <navigator url="/pages/shop/shop?num2=1" open-type="reLaunch"><button bindtap="addshopcar" type="warn">添加购物车</button></navigator>
+
+  <view class="foot2">
+    <view class="baby">宝贝评价（10W+）</view>
+      <view class="pj">
+        <view>非常好用</view>
+        <view>加热效果很好</view>
+        <view>外观漂亮</view>
+        <view>尺寸适宜</view>
+      </view>
+    <view>
+      <view class="peo">🎨 ***凯 2个月前</view>
+      <view>做工精细，质量很好，物流很快，造型美观，托盘可拆卸清洗。可摊平使用，可煎可炸可烤可涮。锅热速度很快，可以做很多美食，大品牌可以放心购买！</view>
+      <view class="peo">✨ 雨***开 15天前</view>
+      <view>家里的小家电都是美的的，这次我也是千挑万选才选中这款产品，颜值很高，方盘不占地方，用法简单，预热非常快，火力也大，信赖京东，信赖美的产品。</view>
+    </view>
+  </view>
+
+  <view class="baby2">宝贝详情</view>
+  <image src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t1/49955/35/19650/121516/62aacd98E44ee7ec2/2b21a299f850a175.jpg" mode="widthFix"></image>
+  <image src="https://img30.360buyimg.com/sku/jfs/t1/57486/32/18742/182717/628ae202Efa710d26/b0946978fdb00f0c.jpg" mode="widthFix"></image>
+  <image src="https://t00img.yangkeduo.com/goods/images/2019-12-21/7df6d9db-29c5-4f76-a54d-a86d252da12a.jpg" mode="widthFix"></image>
+  <image src="http://image3.buy.ccb.com/merchant/201704/948496690/1566185859736.jpg" mode="widthFix"></image>
+  <image src="https://t00img.yangkeduo.com/goods/images/2020-01-05/280df9bb-3fdd-4d47-aa9e-579d8a434d9b.jpg" mode="widthFix"></image>
+  <image src="http://image3.buy.ccb.com/merchant/201704/948496690/1566183180584_4.jpg" mode="widthFix"></image>
+  <image src="https://t00img.yangkeduo.com/goods/images/2019-10-09/458e80b8-d4af-493b-9cec-c0aa6814b6bd.jpg" mode="widthFix"></image>
+  <image src="https://image2.buy.ccb.com/merchant/201503/216053049/1557388908755.jpg" mode="widthFix"></image>
+  <image src="https://pic.ulecdn.com/item/user_800111119/desc20190613/a5a2338e1d4d6d99_800x-1.jpg" mode="widthFix"></image>
+  <image src="https://t00img.yangkeduo.com/t05img/images/2018-07-11/7e123339df60388a273b199835f9a190.jpeg" mode="widthFix"></image>
+  <image src="http://image5.buy.ccb.com/merchant/201612/499931634/1543383919370.jpg" mode="widthFix"></image>
+</view>

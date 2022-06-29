@@ -1,0 +1,170 @@
+<!--pages/goods/goods.wxml-->
+<view class="header">
+  <view class="ssk">
+    <image src="/images/search.jpg" mode="widthFix"></image>
+    <input type="text" placeholder="输入关键字"/>
+    <view class="ss">搜索</view>
+  </view>
+</view>
+<scroll-view class="left" scroll-y>
+  <view class="leftview">
+  <view bindtap="change1">食品饮料</view>
+  <view bindtap="change2">女鞋</view>
+  <view bindtap="change3">宠物</view>
+  <view bindtap="change4">小家电</view>
+  <view bindtap="change5">爱车</view>
+  <view>箱包皮具</view>
+  <view>男鞋</view>
+  <view>腕表珠宝</view>
+  <view>大家电</view>
+  <view>女装</view>
+  <view>拍拍二手</view>
+  <view>奢侈品</view>
+  <view>图书</view>
+  <view>童装</view>
+  <view>装修定制</view>
+  <view>工业品</view>
+  <view>手机</view>
+  <view>玩具乐器</view>
+  <view>美妆</view>
+  <view>个户清洁</view>
+</view>
+</scroll-view>
+
+
+<view class="rightview" wx:if="{{num == 1}}">
+  <swiper indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+  <swiper-item><image src="https://img13.360buyimg.com/cms/jfs/t29680/64/1430739322/190412/ef426e1d/5ce03c23Nf867d31e.jpg!q80.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img13.360buyimg.com/cms/jfs/t30679/135/1453639293/202148/93f2976f/5ce03cc2N44174369.jpg!q80.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img10.360buyimg.com/cms/jfs/t1/70971/38/68/200181/5ce03c94Ec6a32c91/2dc0bad2377970bb.png!q80.webp" mode="widthFix"></image></swiper-item>
+  </swiper>
+  <view>食品饮料</view>
+  <view class="name">
+  <scroll-view class="right" scroll-y>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/166976/8/27164/152064/621c955eEae5c4f9f/46560f61b787eef7.jpg!cc_320x320.webp" mode="widthFix"></image><view>牛奶饮品</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/41877/6/18433/294770/62a0737bEbead7d90/b7a70af4eda1f31d.jpg!cc_320x320.webp" mode="widthFix"></image><view>茗茶</view></view>
+    <view><image src="https://img20.360buyimg.com/babel/s320x320_jfs/t1/169905/34/7711/99435/6034c51dE273e0b51/ab0bfdf743ee237e.jpg!cc_320x320.webp" mode="widthFix"></image><view>米面粮油</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/64343/8/19296/381532/62adea04E312f193d/b86b151e5f395e97.jpg!cc_320x320.webp" mode="widthFix"></image><view>坚果炒货</view></view>
+    <view><image src="https://img10.360buyimg.com/babel/s320x320_jfs/t1/123217/25/3781/156071/5ed64652Eb21daf45/2bcd486e582b5c92.jpg!cc_320x320.webp" mode="widthFix"></image><view>水饮</view></view>
+    <view><image src="https://img10.360buyimg.com/babel/s320x320_jfs/t1/94072/12/26312/527847/62481d68Edd572a6d/31ebe938cb6bd442.jpg!cc_320x320.webp" mode="widthFix"></image><view>调味干货</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/198908/14/13714/380641/616d24f7Ebdb1fc62/eba5ecb135b99f33.jpg!cc_320x320.webp" mode="widthFix"></image><view>冲调速食</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/31529/4/7305/165467/5c95d332Ed7e09300/745cba358b6c7139.jpg!cc_320x320.webp" mode="widthFix"></image><view>饼干蛋糕</view></view>
+    <view><image src="https://img13.360buyimg.com/n7/jfs/t1/200245/12/24295/218666/62870c91E48045557/d6826030faa080ce.jpg" mode="widthFix"></image><view>糖巧</view></view>
+    <view><image src="https://img14.360buyimg.com/n7/jfs/t22702/59/1063498442/303531/f51be0bc/5b4ea900N67ed046e.jpg" mode="widthFix"></image><view>果酱</view></view>
+    <view><image src="https://img10.360buyimg.com/n7/jfs/t1/119758/30/22267/104623/62907a40E2974b962/81ab4ac2785ad722.jpg" mode="widthFix"></image><view>新鲜水果</view></view>
+    <view><image src="https://img10.360buyimg.com/n7/jfs/t1/181048/4/12198/113444/60dd9e7fE5630cfe0/988c3afd0ad0c6c7.jpg" mode="widthFix"></image><view>冰淇淋</view></view>
+    <view><image src="https://img10.360buyimg.com/n7/jfs/t1/17333/36/16569/293185/629709aaEe767c2b2/3eb2ee8508d61a22.jpg" mode="widthFix"></image><view>牛肉牛排</view></view>
+    <view><image src="https://img14.360buyimg.com/n7/jfs/t1/90122/15/19600/104973/62539224E064a1a38/ca3d57b4fa44e344.jpg" mode="widthFix"></image><view>鱼肉鱼排</view></view>
+    <view><image src="https://img13.360buyimg.com/n7/jfs/t1/82878/18/12503/847671/5d9ea8f7E1c0a8a2a/615742554cee6d70.png" mode="widthFix"></image><view>鸡肉食品</view></view>
+    <view><image src="https://img11.360buyimg.com/n7/jfs/t1/206462/9/7870/203674/61809023E1c353c89/5f8d188e35400d83.jpg" mode="widthFix"></image><view>名贵洋酒</view></view>
+    <view><image src="https://img12.360buyimg.com/n7/jfs/t1/148524/9/7814/86252/5f5737eaEde0fb969/bbd66ba1a4b8897f.jpg" mode="widthFix"></image><view>爽口啤酒</view></view>
+    <view><image src="https://img11.360buyimg.com/n7/jfs/t1/109121/32/9037/376289/5e702291Ec8abe0dc/6abc0178035036c3.jpg" mode="widthFix"></image><view>汽水饮料</view></view>
+  </scroll-view>
+    
+  </view>  
+</view>
+
+
+
+
+<view class="rightview" wx:if="{{num == 2}}">
+  <swiper  indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+  <swiper-item><image src="https://img20.360buyimg.com/babel/s1900x740_jfs/t1/66428/36/19409/137769/62a2ff6eEe001e104/708603f1dbdc8571.jpg!cc_1900x740.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img11.360buyimg.com/babel/s1900x740_jfs/t1/180037/13/25131/157154/6298a8caE2bf686bc/478f77e255792f7e.jpg!cc_1900x740.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img30.360buyimg.com/babel/s1900x740_jfs/t1/179736/37/24713/100358/62989026Ea13958e1/3a84746627d20496.jpg!cc_1900x740.webp" mode="widthFix"></image></swiper-item>
+  </swiper>
+  <view>女鞋</view>
+  <view class="name">
+  <scroll-view class="right" scroll-y>
+    <view><image src="https://img13.360buyimg.com/babel/s420x420_jfs/t1/193639/18/16136/229541/6107ab14E2648a354/6147beda55beadaf.jpg!cc_420x420.webp" mode="widthFix"></image><view>老爹鞋</view></view>
+    <view><image src="https://img13.360buyimg.com/babel/s420x420_jfs/t1/188856/26/21500/85272/6131916fEf69962c9/d424c2ac4cc0098b.jpg!cc_420x420.webp" mode="widthFix"></image><view>板鞋</view></view>
+    <view><image src="https://img12.360buyimg.com/babel/s420x420_jfs/t1/166210/10/24675/125634/62b0bcf9E24a17ccb/f66c018335f41929.jpg!cc_420x420.webp" mode="widthFix"></image><view>猪腰子鞋</view></view>
+    <view><image src="https://img30.360buyimg.com/babel/s420x420_jfs/t1/198179/28/25458/148025/62b0155aEbd24ce01/858097d5af465360.jpg!cc_420x420.webp" mode="widthFix"></image><view>靴子</view></view>
+    <view><image src="https://img20.360buyimg.com/babel/s420x420_jfs/t1/103075/6/15955/345008/5e75ed09E06af6726/db0934d1b04cf148.jpg!cc_420x420.webp" mode="widthFix"></image><view>高跟鞋</view></view>
+    <view><image src="https://img12.360buyimg.com/babel/s420x420_jfs/t1/216815/35/19021/71951/62b0bd49E385b107e/a0414d144fffdbf5.jpg!cc_420x420.webp" mode="widthFix"></image><view>乐福鞋</view></view>
+    <view><image src="https://img30.360buyimg.com/babel/s420x420_jfs/t1/161202/20/19294/286863/607a38b8E3fb9b3ec/2441989b24d9a6f0.jpg!cc_420x420.webp" mode="widthFix"></image><view>阿甘鞋</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s420x420_jfs/t1/132353/29/22513/334899/62824501E9591d952/56b37fea8bdf0a5b.jpg!cc_420x420.webp" mode="widthFix"></image><view>滑板鞋</view></view>
+    <view><image src="https://img13.360buyimg.com/babel/s420x420_jfs/t1/194182/15/23395/207514/6264afecEb08d9e2c/1f57e5ce9056e35f.jpg!cc_420x420.webp" mode="widthFix"></image><view>尖头细高跟</view></view>
+    
+  </scroll-view>
+    
+  </view>  
+</view>
+
+
+<view class="rightview" wx:if="{{num == 3}}">
+  <swiper indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+  <swiper-item><image src="https://img13.360buyimg.com/cms/jfs/t3199/239/854183464/17230/1f1b72f/57c000dcNf86c6e85.jpg" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img14.360buyimg.com/cms/jfs/t3142/102/1477470524/15837/baa35ca3/57ce7ff5N20afade9.jpg" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img12.360buyimg.com/cms/jfs/t3028/97/1239487628/44130/bc52f69/57c00aa3Nb3d7ff33.jpg" mode="widthFix"></image></swiper-item>
+  </swiper>
+  <view>宠物</view>
+  <view class="name">
+  <scroll-view class="right" scroll-y>
+    <view><image src="https://img14.360buyimg.com/n3/jfs/t1/114075/5/4717/220212/5eafbb1fE9a20c7a3/ab167d333f06bd2d.jpg!q80.webp" mode="widthFix"></image><view>猫粮</view></view>
+    <view><image src="https://img13.360buyimg.com/n3/jfs/t1/65903/17/7347/296023/5d561fbeE810fbe08/356716793f60ad25.jpg!q80.webp" mode="widthFix"></image><view>狗粮</view></view>
+    <view><image src="https://img12.360buyimg.com/n3/jfs/t9652/175/1422572315/245648/8915c4c5/59e0ddeaN7136731f.jpg!q80.webp" mode="widthFix"></image><view>仓鼠粮</view></view>
+    <view><image src="https://img14.360buyimg.com/n3/jfs/t4387/231/4554191217/569393/aa4af42e/59100802N401adf83.jpg!q80.webp" mode="widthFix"></image><view>鱼缸</view></view>
+    <view><image src="https://img10.360buyimg.com/n2/jfs/t1/46069/34/6177/177932/5d3d535eEb58eccd8/e09e4dd2091db9f6.jpg!q80.webp" mode="widthFix"></image><view>宠物玩具</view></view>
+    
+  </scroll-view>
+    
+  </view>  
+</view>
+
+<view class="rightview" wx:if="{{num == 4}}">
+  <swiper indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+  <swiper-item><image src="https://img20.360buyimg.com/babel/s1900x710_jfs/t1/179044/28/25851/117433/62afda3fE2c4c118a/503795f3f4c6fbad.jpg!cc_1900x710.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img30.360buyimg.com/babel/s1900x710_jfs/t1/111960/21/28709/135367/62ad74b0Eb152652b/9b570e27435d3bcd.jpg!cc_1900x710.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img12.360buyimg.com/babel/s1900x710_jfs/t1/16196/32/16301/198188/62ade290E09349dff/5f8340d30db1104f.png!cc_1900x710.webp" mode="widthFix"></image></swiper-item>
+  </swiper>
+  <view>小家电</view>
+  <view class="name">
+  <scroll-view class="right" scroll-y>
+    <view><image src="https://img30.360buyimg.com/babel/s320x320_jfs/t1/101852/2/17573/25044/5e8763e0Eb9b7e946/8b70189421122aa1.jpg!cc_320x320.webp" mode="widthFix"></image><view>洗衣机</view></view>
+    <view><image src="https://img13.360buyimg.com/babel/s320x320_jfs/t1/12225/39/7655/76174/5c6cc585E37855ad4/2bc749a4d729aeec.jpg!cc_320x320.webp" mode="widthFix"></image><view>冰箱</view></view>
+    <view><image src="https://img10.360buyimg.com/babel/s320x320_jfs/t1/192786/10/26393/50660/62b0220fEa1f102ef/c9544e9ddc71385b.jpg!cc_320x320.webp" mode="widthFix"></image><view>吹风机</view></view>
+    <view><image src="https://img20.360buyimg.com/babel/s320x320_jfs/t20503/186/2458533163/101960/71fcfe06/5b56ddcaNfa469fcd.jpg!cc_320x320.webp" mode="widthFix"></image><view>微波炉</view></view>
+    <view><image src="https://img30.360buyimg.com/babel/s320x320_jfs/t1/46397/1/18915/48240/62b04519E08c18bd5/5188d8a954065a06.jpg!cc_320x320.webp" mode="widthFix"></image><view>空气净化器</view></view>
+    <view><image src="https://img13.360buyimg.com/babel/s320x320_jfs/t1/155290/31/24094/49811/62b0289eE9346a4f8/ff5b42e04f52cb7f.jpg!cc_320x320.webp" mode="widthFix"></image><view>吸尘器</view></view>
+    <view><image src="https://img12.360buyimg.com/babel/s320x320_jfs/t1/65973/13/19837/157032/62b09b00E2ec062f9/bdc9b5dc17cb0238.jpg!cc_320x320.webp" mode="widthFix"></image><view>热水器</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/1049/37/18953/139611/62b09111Eb063beff/69d268c1d341aa65.jpg!cc_320x320.webp" mode="widthFix"></image><view>电饭煲</view></view>
+    <view><image src="https://img13.360buyimg.com/babel/s320x320_jfs/t1/123345/21/24447/78962/6229c366Ef662cf8b/4c493382ec9646f0.jpg!cc_320x320.webp" mode="widthFix"></image><view>电动牙刷</view></view>
+    <view><image src="https://img14.360buyimg.com/babel/s320x320_jfs/t1/218054/10/8820/72646/61c5378cE6f85026f/b263045fc87f0b23.jpg!cc_320x320.webp" mode="widthFix"></image><view>除螨机</view></view>
+    <view><image src="https://img20.360buyimg.com/babel/s320x320_jfs/t1/80705/31/19646/297364/62962b4fE16d04be3/c0beb2740469e782.jpg!cc_320x320.webp" mode="widthFix"></image><view>剃须刀</view></view>
+    <view><image src="https://img12.360buyimg.com/babel/s320x320_jfs/t1/182798/23/26424/145339/62b08dccEc6f1cddf/0f641cc1c9662f91.jpg!cc_320x320.webp" mode="widthFix"></image><view>抽油烟机</view></view>
+    <view><image src="https://img10.360buyimg.com/babel/s320x320_jfs/t1/216542/21/19373/156411/62b0386aE7761aa4e/4213385926c1ff7b.jpg!cc_320x320.webp" mode="widthFix"></image><view>空气炸锅</view></view>
+    <view><image src="https://img14.360buyimg.com/babel/s320x320_jfs/t1/131381/11/28213/148617/62b04b52Ec4f58436/be039079398997c7.jpg!cc_320x320.webp" mode="widthFix"></image><view>电磁炉</view></view>
+    <view><image src="https://img13.360buyimg.com/babel/s320x320_jfs/t1/22094/1/16642/428019/62b027f9E77ecf2ce/878f047aaa94ec55.jpg!cc_320x320.webp" mode="widthFix"></image><view>电风扇</view></view>
+    
+  </scroll-view>
+    
+  </view>  
+</view>
+
+<view class="rightview" wx:if="{{num == 5}}">
+  <swiper indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+  <swiper-item><image src="https://img13.360buyimg.com/babel/s1580x680_jfs/t1/205511/16/6502/84403/61407038E342a09a5/b6b5b4e44b221377.jpg!cc_1580x680.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img12.360buyimg.com/babel/s1580x680_jfs/t1/83189/12/16248/229674/61389330E9b82bc50/a0c44c20519b893e.jpg!cc_1580x680.webp" mode="widthFix"></image></swiper-item>
+  <swiper-item><image src="https://img20.360buyimg.com/babel/s1580x680_jfs/t1/80313/1/17052/258870/61385ff4E935d8b6d/29c6d1b0bba535fd.jpg!cc_1580x680.webp" mode="widthFix"></image></swiper-item>
+  </swiper>
+  <view>爱车</view>
+  <view class="name">
+  <scroll-view class="right" scroll-y>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/176251/23/8205/99049/6094e42cEc1b88d0c/02acb84a198c6c5c.jpg!cc_320x320.webp" mode="widthFix"></image><view>行车记录仪</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/223988/38/13003/312538/62b0c07dEec00c6fe/76cd08cd36c4b9a6.jpg!cc_320x320.webp" mode="widthFix"></image><view>车载吸尘器</view></view>
+    <view><image src="https://img30.360buyimg.com/babel/s320x320_jfs/t1/173997/1/10574/357660/60a4bc57E5a99032f/955ca58f72c66677.jpg!cc_320x320.webp" mode="widthFix"></image><view>汽车靠垫</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t22684/230/1911547105/317079/c7fbe962/5b6d4a4bN0566e4d3.jpg!cc_320x320.webp" mode="widthFix"></image><view>汽车香水</view></view>
+    <view><image src="https://img14.360buyimg.com/babel/s320x320_jfs/t1/176197/35/15046/195180/60c9d9c0E677a5c64/a8e60035592eed3b.jpg!cc_320x320.webp" mode="widthFix"></image><view>玻璃水</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/108084/19/23919/233051/62b09bd9Ed6de65db/fabcab97b1397b1e.jpg!cc_320x320.webp" mode="widthFix"></image><view>高压洗车机</view></view>
+    <view><image src="https://img13.360buyimg.com/babel/s320x320_jfs/t1/172540/15/21482/561727/625f70ebEd36c45ed/af85bca9a8503a91.jpg!cc_320x320.webp" mode="widthFix"></image><view>防晒罩</view></view>
+    <view><image src="https://img30.360buyimg.com/babel/s320x320_jfs/t1/109423/16/28924/208488/628d0c36Ecd623cc1/7cd80e1758034c8d.jpg!cc_320x320.webp" mode="widthFix"></image><view>车载灭火器</view></view>
+    <view><image src="https://img20.360buyimg.com/babel/s320x320_jfs/t1/65628/6/17626/120485/6271f9d6Ebb80d7e6/f9a6b8360eb57507.jpg!cc_320x320.webp" mode="widthFix"></image><view>防盗定位</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/123057/23/9337/95373/5f31f8d7Ecb627f64/4ad62087423a78d4.jpg!cc_320x320.webp" mode="widthFix"></image><view>急救包</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/180618/23/19764/215903/611cf1b2E054e6fe0/36e8af96fa1c21cc.jpg!cc_320x320.webp" mode="widthFix"></image><view>除胶剂</view></view>
+    <view><image src="https://img11.360buyimg.com/babel/s320x320_jfs/t1/139470/16/16407/61760/5fc5b8d0E3ce4ecb1/4bfc0d114b2c5559.jpg!cc_320x320.webp" mode="widthFix"></image><view>防撞贴</view></view>
+    
+  </scroll-view>
+    
+  </view>  
+</view>

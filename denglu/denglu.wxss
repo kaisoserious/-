@@ -1,0 +1,43 @@
+/* pages/denglu/denglu.wxss */
+.main{
+  border: 1px solid black;
+  height: 2000rpx;
+  background-color: rgb(237, 250, 255);
+  padding: 60rpx;
+
+}
+.img1{
+  text-align: center;
+}
+input{
+  border: 1px solid black;
+  border-radius: 30rpx;
+  height: 80rpx;
+  margin: 40rpx;
+}
+
+
+.phone{
+  display: flex;
+  height: 100rpx;
+  margin-top: -40rpx;
+  margin-bottom: 60rpx;
+}
+.phone view{
+  margin-top: 40rpx;
+  margin-left: -20rpx;
+  border: 1px solid black;
+  border-radius: 30rpx;
+  background-color: springgreen;
+  height: 80rpx;
+  width: 200rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.btn button{
+  margin: 40rpx auto;
+  background-color: lightpink;
+  border: 1px solid black;
+  border-radius: 30rpx;
+
+}

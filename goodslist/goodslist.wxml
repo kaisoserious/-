@@ -1,0 +1,67 @@
+<!--pages/goodslist/goodslist.wxml-->
+<view class="main">
+  <view class="top">
+    <swiper indicator-dots indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/209615/24/23087/260476/62aae61eEc64eddee/1e236ab73bdff604.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/180789/5/13857/138005/60ed2868E97a517a0/727800c846cefbbc.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/195334/32/12515/205827/60ed2868E24e3865b/c715cbfffd34bb67.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/180684/11/14083/209190/60ed2869Ec018e194/9c9324d7766360d1.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/171655/16/19657/103079/60ed2869E0be6301c/b240722ec8a2631e.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img14.360buyimg.com/n0/jfs/t1/68212/10/16207/126153/60ed2869Eb43fdae4/2d2a9e6200d92c36.jpg" mode="widthFix"></image></swiper-item>
+    </swiper>
+  </view>
+
+  <view class="tit"> 
+    <view>优惠促销</view>
+    <view class="money">￥29.70</view>
+      <view class="tit2">
+        <view class="quan">满6减5</view>
+        <view class="quan">满300减210</view>
+        <view class="quan">满400减285</view>
+      </view>
+    <view>【300 减210】百草味 手撕蟹味棒120g 海鲜小包装蟹肉蟹柳肉干网红零食小吃MJ 香辣味</view>
+    <view class="tit2">
+      <view>🧡推荐</view>
+      <view>👨‍👦‍👦帮我选</view>
+      <view>📣分享</view>
+    </view>
+  </view>
+
+  <view class="foot1">
+    <view>选择 口味/规格 ></view>
+    <view>发货 广东揭阳 | 快递 : 免运费 月销 : 200+</view>
+    <view>保障 7天无理由 ></view>
+    <view>参数 品牌/规格 ></view>
+  </view>
+
+  <navigator url="/pages/shop/shop?num=1" open-type="reLaunch"><button bindtap="addshopcar" type="warn">添加购物车</button></navigator> 
+
+  <view class="foot2">
+    <view class="baby">宝贝评价（2000）</view>
+      <view class="pj">
+        <view>美味可口（36）</view>
+        <view>份量充足（10）</view>
+        <view>方便携带（8）</view>
+      </view>
+    <view>
+      <view class="peo">🎃 ***Y 1个月前</view>
+      <view>百草味的零食非常好，正好赶上疫情期间购买的，又在做活动，价格实惠，满减促销，种类很多，手撕蟹味棒特别好吃，口感细腻，口味比较独特，薯片也很好吃，薄脆清香，鸭脖口味甜辣哦，豆干口味多，很好吃，饼干两个味道都很好。</view>
+      <view class="peo">🎯 晴***侠 7天前</view>
+      <view>快递很快就收到了，打开尝了尝，味道都很不错，在有优惠的时候买很划算，一次买了够吃一个月的好吃的，好开心。吃完了会考虑再买这一家哒，也推荐给想买零食的小可爱们呦。这是我给商品评价字数最多的一次啦，要词穷了。不过，东西是真的挺好吃哒。</view>
+    </view>
+  </view>
+
+  <view class="baby2">宝贝详情</view>
+  <image src="https://img20.360buyimg.com/imgzone/jfs/t1/63919/29/19100/260368/62a9aac9Ed069f1d3/a825cc3f8b3f19f3.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/39040/31/14894/258220/60ed288eEf520d44e/158177b0e2f7b0bb.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/182831/20/13663/144086/60ed288eEf5681a18/f3a65c444a07a826.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/80855/4/14014/181346/60ed288eE48fd6e22/3ca24a3fe4d92d1d.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/184564/27/13926/252004/60ed288eEba62605d/41df0230b29f774d.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/175943/21/19199/134297/60ed288fEf205727a/230b495827ff4bd2.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/177560/13/13726/156031/60ed2890Eabdf8926/0ed1cd9cd731928a.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/43628/32/16286/159017/60ed288fE3f9d71b1/ebcec6e39854354d.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/181526/26/13798/179220/60ed2890E61413fae/0d72444999643d1a.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/43196/25/16229/111209/60ed2890Eee581f39/1889476e74ec1643.jpg" mode="widthFix"></image>
+  <image src="http://img30.360buyimg.com/popWareDetail/jfs/t1/177836/32/13885/118838/60ed28b5E5878da83/f27bfe92fa4a7020.jpg" mode="widthFix"></image>
+  <image src="https://img30.360buyimg.com/imgzone/jfs/t1/197206/40/23845/42439/62909a0eEd5a6f049/00291033072e1021.jpg" mode="widthFix"></image>
+</view>

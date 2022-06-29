@@ -1,0 +1,49 @@
+<!--pages/manger/manger.wxml-->
+<view class="main">
+  <view class="myinfo">
+    <view><image class="img1" src="/images/headimg1.jpg" mode="heightFix"></image></view>
+      <view class="myname">
+        <view>凯soserious</view>
+        <view>账号名 : tb821213284110</view>
+      </view>
+    <view class="myimg"><image class="img" src="/images/rightbtn.jpg" mode="heightFix"></image></view>
+  </view>
+
+  <view class="v1">
+    <view class="myinfo2">我的收获地址</view>
+  <view class="myinfo2">我的档案</view>
+  </view>
+  
+
+  <view class="v1">
+    <view class="myinfo2">账号安全</view>
+    <view class="myinfo2">支付</view>
+  </view>
+  
+<view class="v1">
+  <view class="myinfo2">消息通知</view>
+  <view class="myinfo2">主题换肤</view>
+  <view class="myinfo2">模式切换</view>
+  <view class="myinfo2">隐私</view>
+  <view class="myinfo2">通用</view>
+</view>
+  
+<view class="v1">
+  <view class="myinfo2">帮助与反馈</view>
+  <view class="myinfo2">关于嗨购</view>
+  <view class="myinfo2">个人信息共享清单</view>
+  <view class="myinfo2">个人信息收集清单</view>
+</view>
+  
+<view class="v1">
+  <view class="myinfo2">商家入驻</view>
+</view>
+  
+  <view class="v2">
+    <navigator url="/pages/denglu/denglu"><button>切换账号</button></navigator>
+    <button>退出登录</button>
+  </view>
+  
+
+
+</view>

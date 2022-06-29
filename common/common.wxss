@@ -1,0 +1,75 @@
+.userList{
+  font-size: 20px;
+  color: lightgreen
+}
+
+.top{
+  width: 100%;
+  border: 1px black solid;
+  height: 750rpx;
+}
+swiper{
+  width: 100%;
+  height: 750rpx
+}
+image{
+  width: 100%;
+}
+.tit{
+  border: 1px solid black;
+  border-radius: 20rpx;
+  margin: 10rpx;
+  font-size: 32rpx;
+}
+.tit view{
+  margin: 8rpx;
+}
+.tit2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.money{
+  color: red;
+  font-size: 45rpx;
+  font-weight: 600;
+}
+.quan{
+  background-color: red;
+}
+.foot1{
+  border: 1px solid black;
+  border-radius: 20rpx;
+  margin: 10rpx;
+  font-size: 30rpx;
+}
+.foot1 view{
+  margin: 16rpx;
+}
+.foot2{
+  border: 1px solid black;
+  border-radius: 20rpx;
+  margin: 10rpx;
+  font-size: 30rpx;
+}
+.foot2 view{
+  margin: 12rpx;
+}
+.baby{
+  font-size: 40rpx;
+}
+.pj{
+  display: flex;
+  justify-content: space-around;
+}
+.pj view{
+  border-radius: 20rpx;
+  background-color: red;
+}
+.peo{
+  font-size: 36rpx;
+  margin-top: 20rpx;
+}
+.baby2{
+  text-align: center;
+}

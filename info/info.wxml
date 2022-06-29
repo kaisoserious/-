@@ -1,0 +1,209 @@
+<!--pages/info/info.wxml-->
+<!-- <text>pages/info/info.wxml</text> -->
+<!-- delta="1" 可以省略 -->
+<!-- <navigator open-type="navigateBack" delta="1"><button>返回上一页</button></navigator> -->
+<!-- <button bindtap="backpage">返回上一页</button> -->
+<view class="main">
+  <view class="boxhead">
+    <image src="https://ossgw.alicdn.com/alp/1653934020258-750-90.jpg" mode="widthFix"></image>
+  </view>
+  <view class="boxinput">
+    <image src="/images/search.jpg" mode="heightFix"></image>
+    <input type="text" placeholder="宝宝玩具" class="input1"/>
+    <view class="btn1">搜索</view>
+  </view>
+  <view class="sro1">
+    <scroll-view class="sroview" scroll-x>
+      <view>首页</view>
+      <view>补贴爆品</view>
+      <view>手机</view>
+      <view>小家电</view>
+      <view>电脑办公</view>
+      <view>食品饮料</view>
+      <view>运动</view>
+      <view>母婴</view>
+      <view>个户清洁</view>
+      <view>美妆</view>
+      <view>玩具乐器</view>
+      <view>男装</view>
+      <view>家具厨具</view>
+      <view>生鲜</view>
+      <view>家装</view>
+      <view>酒水</view>
+      <view>女装</view>
+      <view>大家电</view>
+      <view>腕表珠宝</view>
+    </scroll-view>
+  </view>
+  <view class="swp1">
+    <swiper indicator-dots indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+      <swiper-item><image src="https://img.alicdn.com/imgextra/i3/O1CN01Izoiln1FXD71sCJI7_!!6000000000496-0-tps-520-280.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://aecpm.alicdn.com/simba/img/TB1lUZLJVXXXXXtXFXXSutbFXXX.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/imgextra/i4/O1CN01YRq0Hq1dLLiagRxTp_!!6000000003719-0-tps-520-280.jpg_q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/imgextra/i2/O1CN01S5X0Fb1Y7XhuKubso_!!6000000003012-0-tps-520-280.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/imgextra/i2/O1CN01P038tm1TKIemvyals_!!6000000002363-0-tps-520-280.jpg" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/imgextra/i2/O1CN01HxXayN22mhl4HXXi4_!!6000000007163-2-tps-520-280.png" mode="widthFix"></image></swiper-item>
+    </swiper>
+  </view>
+
+  <view class="btn2">
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/sqcs.jpg" mode="widthFix"></image><view>嗨购超市</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/phone.jpg" mode="widthFix"></image><view>嗨购手机</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/hel.jpg" mode="widthFix"></image><view>嗨购家电</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/clo.jpg" mode="widthFix"></image><view>嗨购服饰</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/computer.jpg" mode="widthFix"></image><view>电脑数码</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/tenyuan.jpg" mode="widthFix"></image><view>10元店</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/tree.jpg" mode="widthFix"></image><view>免费水果</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/bean.jpg" mode="widthFix"></image><view>领金豆</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/qgms.jpg" mode="widthFix"></image><view>万人团</view></navigator></view>
+      <view><navigator url="/pages/goods/goods" open-type="switchTab"><image src="/images/yhq.jpg" mode="widthFix"></image><view>领优惠券</view></navigator></view>
+  </view>
+
+  <view class="foot1">
+    <view class="goods1">
+      <view class="tit1">👜嗨购秒杀</view>
+      <swiper class="swp2" autoplay interval="3000" vertical="false">
+        <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i2/385132127/O1CN014UxUGF1RaDC8y1Ood-385132127.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i1/1652864050/O1CN01i1nFNk1fmwpQttsWE_!!1652864050.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i3/2081502851/O1CN01XHP3021WvnwXWLZfw_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i2/1689522943/O1CN01R2TiRb1XbwNY6MVRj_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i4/2208163280319/O1CN01ZXmr7N1EE95MT66zy_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i2/2207311198651/O1CN01NJyCts2DmD7PQReqV_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      </swiper>
+    </view>
+    <view class="goods2">
+      <view class="tit2">🔥排行榜</view>
+      <swiper class="swp3" autoplay interval="3000" vertical="false">
+        <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i1/2208679516503/O1CN01RWtjKv1xuQLwd2nQk_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i3/2204174570383/O1CN01rvZJRj1EhSN1CvKQV_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i2/2791921716/O1CN01SWVWUS1OXyPPipgrW_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i3/2208029509068/O1CN01LV4MZN2GrCHdYawXw_!!2-item_pic.png_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i1/2204174570383/O1CN01xMXb8r1EhSQZUzsNV_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      <swiper-item><image src="https://img.alicdn.com/bao/uploaded/i2/4126724638/O1CN01Kyw5eK1k8Fgw67Vhi_!!0-item_pic.jpg_468x468q75.jpg_.webp" mode="widthFix"></image></swiper-item>
+      </swiper>
+    </view>
+  </view>
+
+  <view class="foottitle">
+    <view>🛍精选商品</view>
+  </view>
+  
+  <view class="foot2">
+    <navigator class="goods3" url="/pages/goodslist/goodslist">
+      <image src="https://img20.360buyimg.com/jdcms/s300x300_jfs/t1/146339/5/28601/261189/62a9e654E9b7ec55e/cc3026ff54037c19.jpg.webp" mode="widthFix"></image>
+      <view>【300 减210】百草味 手撕蟹味棒120g ..</view>
+      <view class="pice">￥29.70</view>
+    </navigator>
+    <navigator class="goods4" url="/pages/goodslist2/goodslist2">
+      <image src="https://img14.360buyimg.com/jdcms/s300x300_jfs/t1/194/39/18625/228874/62aa02afEe6915b29/dde6a3349ae85fbd.jpg.webp" mode="widthFix"></image>
+      <view>美的（Midea）电饼铛 家用智能双面加热..</view>
+      <view class="pice">￥119.00</view>
+    </navigator>
+    
+  </view>
+
+  <view class="foot3">
+    <navigator class="goods5" url="/pages/goodslist3/goodslist3">
+      <image src="https://img20.360buyimg.com/jdcms/s300x300_jfs/t1/200232/22/25350/240411/62a9e643E3948ce2e/d93224e2929ca525.jpg.webp" mode="widthFix"></image>
+      <view>【300 减210】百草味 开心果100g 每日坚果..</view>
+      <view class="pice">￥39.80</view>
+    </navigator>
+    <navigator class="goods6" url="/pages/goodslist4/goodslist4">
+      <image src="https://img30.360buyimg.com/jdcms/s300x300_jfs/t1/215931/5/15890/199506/6243eb88E047d8384/d9af5091e6f242b2.jpg.webp" mode="widthFix"></image>
+      <view>沃隆 每日坚果 混合坚果礼盒休闲零食礼包..</view>
+      <view class="pice">￥33.80</view>
+    </navigator>
+  </view>
+
+  <view class="foot4">
+    <navigator class="goods7" url="/pages/goodslist5/goodslist5">
+      <image src="https://img30.360buyimg.com/jdcms/s300x300_jfs/t1/15092/33/16786/225123/629a4403Efdb099f1/eb4c6ba6448c6052.jpg.webp" mode="widthFix"></image>
+      <view>外星人ALIENWARE m15 R7 15.6英寸游戏本..</view>
+      <view class="pice">￥13999.00</view>
+    </navigator>
+    <navigator class="goods8" url="/pages/goodslist6/goodslist6">
+      <image src="https://img12.360buyimg.com/jdcms/s300x300_jfs/t1/164324/39/22158/226779/6242bd2dE548af128/2f064c70862d75d1.jpg.webp" mode="widthFix"></image>
+      <view>铂耐家居 简约衣帽间柜子步入式衣柜定制..</view>
+      <view class="pice">￥100.00</view>
+    </navigator>
+  </view>
+
+  <view class="foot5">
+    <navigator class="goods9" url="/pages/goodslist7/goodslist7"> 
+      <image src="https://img11.360buyimg.com/jdcms/s300x300_jfs/t1/117374/29/26115/294631/62a87a4dE4ed47916/e4b9d7eaeed120e5.jpg.webp" mode="widthFix"></image>
+      <view>【只用真皮 20年质保】策一 直排真皮沙发..</view>
+      <view class="pice">￥4430.00</view>
+    </navigator>
+    <navigator class="goods10" url="/pages/goodslist8/goodslist8">
+      <image src="https://img14.360buyimg.com/jdcms/s300x300_jfs/t1/86677/40/26147/316759/62a9e5d6E525523af/98f482e05366d779.jpg.webp" mode="widthFix"></image>
+      <view>【300 减210】百草味 去骨凤爪135g..</view>
+      <view class="pice">￥59.70</view>
+    </navigator>
+  </view>
+
+  <view class="foot6">
+    <navigator class="goods11" url="/pages/goodslist9/goodslist9">
+      <image src="https://img12.360buyimg.com/jdcms/s300x300_jfs/t1/108643/11/13075/398764/5e9c0ac9Ec6cf4f30/55a1d65f1d3deba0.jpg.webp" mode="widthFix"></image>
+      <view>燕玻定制钢化玻璃长方形玻璃板茶几..</view>
+      <view class="pice">￥10.00</view>
+    </navigator>
+    <navigator class="goods12" url="/pages/goodslist10/goodslist10">
+      <image src="https://img20.360buyimg.com/jdcms/s300x300_jfs/t1/192067/36/26513/301214/62aac203E5c584bce/52ef6ffd8030839b.jpg.webp" mode="widthFix"></image>
+      <view>穗宝（SYMBOL）3D环保椰棕垫天然乳胶床垫..</view>
+      <view class="pice">￥3349.00</view>
+    </navigator>
+  </view>
+
+  <view class="foot7">
+    <navigator class="goods13" url="/pages/goodslist11/goodslist11">
+      <image src="https://img11.360buyimg.com/jdcms/s300x300_jfs/t1/64213/38/18660/866211/62aa1c66E2ead4cf5/96fb761274e4beb8.png.webp" mode="widthFix"></image>
+      <view>懒人沙发榻榻米坐垫单人日式地板椅简易..</view>
+      <view class="pice">￥42.00</view>
+    </navigator>
+    <navigator class="goods14" url="/pages/goodslist12/goodslist12">
+      <image src="https://img11.360buyimg.com/jdcms/s300x300_jfs/t1/47193/10/18238/356945/62aaa436E169398bd/ba3c0a1d956429e2.jpg.webp" mode="widthFix"></image>
+      <view>欧普照明（OPPLE）led筒灯3W超薄筒灯..</view>
+      <view class="pice">￥16.90</view>
+    </navigator>
+  </view>
+
+  <view class="foot8">
+    <navigator class="goods15" url="/pages/goodslist13/goodslist13">
+      <image src="https://img10.360buyimg.com/babel/s300x300_jfs/t1/174412/18/23711/594325/6177b958E36cdef84/402988c7c3eca5f2.jpg.webp" mode="widthFix"></image>
+      <view>江铭 车载纸巾盒汽车抽纸盒挂式车载抽纸盒..</view>
+      <view class="pice">￥48.00</view>
+    </navigator>
+    <navigator class="goods16" url="/pages/goodslist14/goodslist14">
+      <image src="https://img11.360buyimg.com/babel/s300x300_jfs/t1/93634/5/28714/475472/6274dd41Eda3d1ffe/433cd1a72f546d28.jpg.webp" mode="widthFix"></image>
+      <view>杨协成 马蹄爽 荸荠饮料 300ml*24罐 新加坡..</view>
+      <view class="pice">￥118.00</view>
+    </navigator>
+  </view>
+
+  <view class="foot9">
+    <navigator class="goods17" url="/pages/goodslist15/goodslist15">
+      <image src="https://img11.360buyimg.com/babel/s300x300_jfs/t1/110402/3/30527/202034/628c88daE7130dfcc/978d9755c844e74f.jpg.webp" mode="widthFix"></image>
+      <view>红小厨 福州正宗佛跳墙1580g海参鲍鱼半成品..</view>
+      <view class="pice">￥149.90</view>
+    </navigator>
+    <navigator class="goods18" url="/pages/goodslist16/goodslist16">
+      <image src="https://img11.360buyimg.com/babel/s300x300_jfs/t1/110158/24/17888/162867/615fd303Ef5b9e295/bf07697235cdfd86.jpg.webp" mode="widthFix"></image>
+      <view>JJR/C 工程车 40CM遥控推土车玩具 6通道电动..</view>
+      <view class="pice">￥149.00</view>
+    </navigator>
+  </view>
+
+  <view class="foot10">
+    <navigator class="goods19" url="/pages/goodslist17/goodslist17">
+      <image src="https://img20.360buyimg.com/babel/s300x300_jfs/t1/9604/6/11202/291548/5c285274Ecd3c4cfe/afde5a3aaf0fe025.jpg.webp" mode="widthFix"></image>
+      <view>雅德森 小狗狗毛绒玩具博美犬哈士奇狗公仔抱枕..</view>
+      <view class="pice">￥68.00</view>
+    </navigator>
+    <navigator class="goods20" url="/pages/goodslist18/goodslist18">
+      <image src="https://img12.360buyimg.com/babel/s300x300_jfs/t1/203301/17/14487/154714/61873985Ebfca2f49/bb47109546471ed0.jpg.webp" mode="widthFix"></image>
+      <view>驱派 可爱猫硅胶猫咪钥匙链小饰品汽车钥匙挂件..</view>
+      <view class="pice">￥18.80</view>
+    </navigator>
+  </view>
+
+</view>

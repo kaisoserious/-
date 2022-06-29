@@ -1,0 +1,70 @@
+{
+  "pages":[
+    "pages/info/info",
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shop/shop",
+    "pages/goods/goods",
+    "pages/goodslist/goodslist",
+    "pages/goodslist2/goodslist2",
+    "pages/goodslist3/goodslist3",
+    "pages/goodslist4/goodslist4",
+    "pages/goodslist5/goodslist5",
+    "pages/goodslist6/goodslist6",
+    "pages/goodslist7/goodslist7",
+    "pages/goodslist8/goodslist8",
+    "pages/goodslist9/goodslist9",
+    "pages/goodslist10/goodslist10",
+    "pages/goodslist11/goodslist11",
+    "pages/goodslist12/goodslist12",
+    "pages/goodslist13/goodslist13",
+    "pages/goodslist14/goodslist14",
+    "pages/goodslist15/goodslist15",
+    "pages/goodslist16/goodslist16",
+    "pages/goodslist17/goodslist17",
+    "pages/goodslist18/goodslist18",
+    "pages/denglu/denglu",
+    "pages/manger/manger",
+    "pages/zhuce/zhuce"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#bfa",
+    "navigationBarTitleText": "凯soserious",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#cff"
+
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/info/info",
+        "text": "首页",
+        "iconPath": "/images/icon4.jpg",
+        "selectedIconPath": "/images/icon2.jpg"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "分类",
+        "iconPath": "/images/icon8.jpg",
+        "selectedIconPath": "/images/icon1.jpg"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "购物车",
+        "iconPath": "/images/icon10.jpg",
+        "selectedIconPath": "/images/icon5.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "用户",
+        "iconPath": "/images/icon9.jpg",
+        "selectedIconPath": "/images/icon3.jpg"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

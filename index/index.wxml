@@ -1,0 +1,81 @@
+<!--index.wxml-->
+<view class="header" wx:if="{{bool === true}}">
+  <view bindtap="denglu"><navigator url="/pages/denglu/denglu">欢迎光临，请登录</navigator></view>
+  <view><navigator url="/pages/manger/manger">⚙</navigator></view>
+</view>
+
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{canIUseOpenData}}">
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+    </block>
+    <block wx:elif="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
+    </block>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="mygoods">
+    <view>我的订单</view>
+    <view>查看全部</view>
+    <image src="/images/btnright.jpg" mode="widthFix"></image>
+  </view>
+  <view class="usermotto">
+      <view><image src="/images/wallet.jpg" mode="widthFix"></image><view>待付款</view></view>
+      <view><image src="/images/box.jpg" mode="widthFix"></image><view>待发货</view></view>
+      <view><image src="/images/truck.jpg" mode="widthFix"></image><view>待收货</view></view>
+      <view><image src="/images/talk.jpg" mode="widthFix"></image><view>待评价</view></view>
+      <view><image src="/images/doallar.jpg" mode="widthFix"></image><view>售后服务</view></view>
+    </view>
+
+    <view class="money">
+      <view>我的钱包</view>
+      <view>￥100天天领优惠，券后再减100元</view>
+      <image src="/images/btnright.jpg" mode="widthFix"></image>
+    </view>
+
+    <view class="foot1">
+      <view><image src="/images/coupon.jpg" mode="widthFix"></image><view>优惠券</view></view>
+      <view><image src="/images/cash.jpg" mode="widthFix"></image><view>商品收藏</view></view>
+      <view><image src="/images/shop.jpg" mode="widthFix"></image><view>店铺关注</view></view>
+      <view><image src="/images/foot.jpg" mode="widthFix"></image><view>历史浏览</view></view>
+      <view><image src="/images/server.jpg" mode="widthFix"></image><view>我的客服</view></view>
+    </view>
+
+    <view class="foot2">
+      <image src="/images/loveheart.jpg" mode="widthFix"></image>
+      精选推荐
+    </view>
+
+    <swiper indicator-dots indicator-color="white" indicator-active-color="red" autoplay interval="3000">
+      <swiper-item><image src="https://img12.360buyimg.com/babel/s1180x940_jfs/t1/78282/11/18762/55224/62a89e20Ecb24f5b3/1d28c2141bf5d503.jpg.webp" mode="heightFix"></image></swiper-item>
+      <swiper-item><image src="https://imgcps.jd.com/img-cubic/creative_server_cia/v2/2000366/100016150299/FocusFullshop/CkNqZnMvdDEvMTg2NjYzLzIvMjUzMjAvMTExMTA2LzYyOWZhY2NmRTcwNzk0MzZlLzhjNDlhOGFmYzM4MjdhMTQucG5nEgk0LXR5XzBfNTUwAjjui3pCFgoS5bCP5aSp6bmF5rSX6KGj5py6EABCEAoM6LSo5LyY5Lu35buJEAFCEAoM56uL5Y2z5oqi6LStEAJCCgoG6LaF5YC8EAdYm661y_QC/cr/s/q.jpg" mode="heightFix"></image></swiper-item>
+      <swiper-item><image src="https://img30.360buyimg.com/pop/s1180x940_jfs/t1/96982/18/29075/77743/62a1afbdE50e40d4f/b1b324f6cd1df6ee.jpg.webp" mode="heightFix"></image></swiper-item>
+      <swiper-item><image src="https://img12.360buyimg.com/pop/s1180x940_jfs/t1/104696/24/25454/82268/623998e5E45d57ddf/dcd2f33144a2ef7c.jpg.webp" mode="heightFix"></image></swiper-item>
+      <swiper-item><image src="https://imgcps.jd.com/img-cubic/creative_server_cia/v2/2000366/100016718018/FocusFullshop/CkNqZnMvdDEvMTkxMzUxLzgvMjYyNjgvMzExNTA0LzYyOWQwMjVkRWE5ODI0MzlkL2Y5Mzk4YWYxMWUzYTQ5OTAucG5nEgk1LXR5XzBfNTYwAjjui3pCFQoRRGlwbG9tYXTmi4nmnYbnrrEQAEITCg_lhajmsJHmiqLotK3kuK0QAUIQCgznq4vljbPmiqLotK0QAkIKCgblipvojZAQB1jCgdjL9AI/cr/s/q.jpg" mode="heightFix"></image></swiper-item>
+      <swiper-item><image src="https://imgcps.jd.com/ling4/100015364074/5Lqs6YCJ5aW96LSn/5L2g5YC85b6X5oul5pyJ/p-5bd8253082acdd181d02fa33/2893cd79/cr/s/q.jpg" mode="heightFix"></image></swiper-item>
+    </swiper>
+
+    <view class="foot3">
+    <view><image src="https://img10.360buyimg.com/seckillcms/s500x500_jfs/t1/165441/5/31411/76137/6284ade7E3c522b33/d5bd0f9b1bbeed08.jpg" mode="heightFix"></image><view>华为/HUAWEI P50 Pro 原色双影像...</view><view>￥5408</view></view>
+    <view><image src="https://img11.360buyimg.com/seckillcms/s500x500_jfs/t1/129538/35/23576/103423/62a1a43cEe414be30/225ef916f59244a6.jpg" mode="heightFix"></image><view>穗宝（SYMBOL）天然乳胶床垫3D...</view><view>￥3199</view></view>
+    <view><image src="https://img12.360buyimg.com/seckillcms/s500x500_jfs/t1/65303/24/19814/80363/62a83d08E55c74d93/43902c6a81349ca8.jpg" mode="heightFix"></image><view>罗技（Logitech） K845机械键盘...</view><view>￥349</view></view>
+    <view><image src="https://img13.360buyimg.com/seckillcms/s500x500_jfs/t1/195889/4/24300/42386/628ae786Eeee28b3b/9e02575a3a5ce65b.jpg" mode="heightFix"></image><view>外星人ALIENWARE m15 R7 15.6...</view><view>￥13469</view></view>
+    <view><image src="https://img14.360buyimg.com/seckillcms/s500x500_jfs/t1/42489/5/18046/14828/6291de41Eab699016/363ecdab008baf1a.jpg" mode="heightFix"></image><view>蛇圣（Holy serpent）Air蓝牙耳机...</view><view>￥129</view></view>
+    <view><image src="https://img10.360buyimg.com/seckillcms/s500x500_jfs/t1/198119/3/23341/119804/627a35f6E9f63469a/48c578462b64b253.jpg" mode="heightFix"></image><view>PPG大师漆 美国原装进口乳胶漆...</view><view>￥2209</view></view>
+    <view><image src="https://img11.360buyimg.com/seckillcms/s500x500_jfs/t1/59092/6/19731/124951/629f189cE63fa4404/87c9460dcbc210f0.jpg" mode="heightFix"></image><view>3M 汽车贴膜 朗清系列 汽车膜...</view><view>￥1399</view></view>
+    <view><image src="https://img12.360buyimg.com/seckillcms/s500x500_jfs/t1/138258/3/20905/180564/6153f408Ec584249a/715f31dcf1bef9b6.jpg" mode="heightFix"></image><view>小米 RedmiBookPro15 15.6英寸...</view><view>￥4188</view></view>
+    <view><image src="https://img12.360buyimg.com/seckillcms/s500x500_jfs/t1/126271/28/19463/35542/60b0c119E2e943bb1/a7a355046f5f9189.jpg" mode="heightFix"></image><view>统帅（Leader）12升燃气热水器...</view><view>￥699</view></view>
+    <view><image src="https://img14.360buyimg.com/seckillcms/s500x500_jfs/t1/46632/16/18443/158379/62a6f21bE2e0956ac/a098a38981127fd4.jpg" mode="heightFix"></image><view>苏泊尔（SUPOR）电饼铛家用...</view><view>￥119</view></view>
+    </view>
+
+    
+</view>

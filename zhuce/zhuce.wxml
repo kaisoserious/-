@@ -1,0 +1,17 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view class="main">
+  <view class="img1"><image src="https://img10.360buyimg.com/img/jfs/t1/199487/20/23852/33747/62862238E18f45301/a50ec1c60e6aad22.jpg" mode="widthFix"></image></view>
+  <input bindinput="admin"type="text" placeholder="📜请输入你的账号"/>
+  <input type="password" placeholder="🔒请输入你的密码"/>
+  <input type="password" placeholder="🔒再次输入你的密码"/>
+  <view class="phone">
+    <input type="text" placeholder="📞请输入你的手机号"/>
+    <view>发送验证码</view>
+  </view>
+  <input type="text" placeholder="🎯请输入验证码"/>
+  <view class="btn">
+    <button bindtap="zhuce">立即注册</button>
+    <navigator open-type="navigateBack"><button>返回登录</button></navigator>
+  </view>
+  
+</view>

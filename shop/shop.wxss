@@ -1,0 +1,84 @@
+/* pages/shop/shop.wxss */
+.goods1{
+  width: 100%;
+}
+.head image{
+  height: 30rpx;
+}
+.head{
+  width: 1000rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+  margin: 20rpx;
+
+}
+.head view{
+  float: left;
+}
+.head2{
+  margin-left: 300rpx;
+}
+
+.list{
+  border: 1px black solid;
+
+}
+checkbox{
+  margin: 10rpx;
+}
+.list image{
+  height: 200rpx;
+  border: 1px solid black;
+}
+.list>view{
+
+  margin-top: 20rpx;
+  width: 468rpx;
+  float: right;
+  height: 180rpx;
+}
+.ps1{
+  color: red;
+  width: 80rpx;
+  display: inline;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.btn1{
+  width: 200rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.btn1 view{
+  width: 65rpx;
+  
+}
+input{
+  height: 60rpx;
+  width: 50rpx;
+}
+.getAll{
+  font-size: 40rpx;
+  color: red;
+  margin-left: 30rpx;
+}
+#delbtn{
+  width: 220rpx;
+  margin-left: 30rpx;
+}
+.listfoot image{
+  width: 400rpx;
+}
+.listfoot view{
+  text-align: center;
+  font-size: 40rpx;
+  color: red;
+  font-weight: 500;
+}
+checkbox{
+  width: 18%;
+  height: 250rpx
+}
+
+
+

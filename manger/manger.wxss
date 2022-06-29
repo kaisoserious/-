@@ -1,0 +1,43 @@
+/* pages/manger/manger.wxss */
+.main{
+  padding: 10rpx;
+}
+.img{
+  height: 40rpx;
+  margin-top: 160%;
+}
+.myimg{
+
+  margin: 0 auto;
+}
+.myinfo{
+  background-color: pink;
+  display: flex;
+
+}
+.img1{
+  height: 180rpx;
+
+}
+.myname{
+
+  margin-left: 30rpx;
+  width: 70%;
+}
+.myname view:nth-child(1){
+  font-size: 60rpx;
+  font-weight: 800;
+  margin-top: 20rpx;
+}
+.myinfo2{
+  background-color: rgb(255, 221, 226);
+  font-size: 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.v1{
+  margin-top: 10rpx;
+}
+.v2 button{
+  margin: 20rpx auto;
+}

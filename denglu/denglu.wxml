@@ -1,0 +1,16 @@
+<!--pages/denglu/denglu.wxml-->
+<view class="main">
+  <view class="img1"><image src="https://img10.360buyimg.com/img/jfs/t1/199487/20/23852/33747/62862238E18f45301/a50ec1c60e6aad22.jpg" mode="widthFix"></image></view>
+  <input bindinput="admin"type="text" placeholder="📜请输入你的账号"/>
+  <input type="password" placeholder="🔒请输入你的密码"/>
+  <view class="phone">
+    <input type="text" placeholder="📞请输入你的手机号"/>
+    <view>发送验证码</view>
+  </view>
+  <input type="text" placeholder="🎯请输入验证码"/>
+  <view class="btn">
+    <navigator open-type="{{url1}}"><button bindtap="denglu">立即登录</button></navigator>
+    <navigator url="/pages/zhuce/zhuce"><button>立即注册</button></navigator>
+  </view>
+  
+</view>
